@@ -1,0 +1,38 @@
+name: simon-rpg
+version: '${project.version}'
+main: cn.simon.simonrpg.SimonRpg
+api-version: '1.20'
+authors: [ simon ]
+description: simon自制rpg系统
+
+commands:
+  custom-equip:
+    description: 获取自定义装备
+    usage: /<command>
+    permission: op.simon
+    permission-message: 你没有权限哦~
+  custom-bottle:
+    description: 获取自定义瓶子
+    usage: /<command>
+    permission: op.simon
+    permission-message: 你没有权限哦~
+  custom-jewel:
+    description: 获取自定义宝石
+    usage: /<command>
+    permission: op.simon
+    permission-message: 你没有权限哦~
+  recovery:
+    description: 回收装备
+    usage: /<command>
+    permission: op.simon
+    permission-message: 你没有权限哦~
+  bossfall:
+    description: BOSS掉落
+    usage: /<command>
+    permission: op.simon
+    permission-message: 你没有权限哦~
+  simonrpg-reload:
+    description: 重载配置文件
+    usage: /<command>
+    permission: op.simon
+    permission-message: 你没有权限哦~

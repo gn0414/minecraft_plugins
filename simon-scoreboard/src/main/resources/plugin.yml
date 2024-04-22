@@ -1,0 +1,4 @@
+name: simon-scoreboard
+version: '${project.version}'
+main: cn.simon.simonscoreboard.SimonScoreboard
+api-version: '1.20'
